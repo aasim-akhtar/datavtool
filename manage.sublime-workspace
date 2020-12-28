@@ -1,0 +1,659 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"e",
+				"empno"
+			],
+			[
+				"number",
+				"NUMBER"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"emp",
+				"emp_count"
+			],
+			[
+				"de",
+				"dept"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"pos",
+				"POST"
+			],
+			[
+				"fo",
+				"format"
+			],
+			[
+				"pl",
+				"plot_type"
+			],
+			[
+				"backgroun",
+				"background-color\tproperty"
+			],
+			[
+				"se",
+				"select\tTag"
+			],
+			[
+				"index",
+				"index_col"
+			],
+			[
+				"r",
+				"request"
+			],
+			[
+				"sns",
+				"sns_plot"
+			],
+			[
+				"Fil",
+				"FILES"
+			],
+			[
+				"b",
+				"button"
+			],
+			[
+				"in",
+				"inline-grid\tdisplay"
+			],
+			[
+				"width",
+				"max-width\tproperty"
+			],
+			[
+				"td",
+				"td\tTag"
+			],
+			[
+				"ce",
+				"cellspacing\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "datavtool/views.py",
+			"settings":
+			{
+				"buffer_size": 12751,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/STUDY/5th sem/DBMS/plsql_empindept.sql",
+			"settings":
+			{
+				"buffer_size": 202,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/create.html",
+			"settings":
+			{
+				"buffer_size": 2585,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/index.html",
+			"settings":
+			{
+				"buffer_size": 5599,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/assets/css/main.css",
+			"settings":
+			{
+				"buffer_size": 27715,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "firstp/urls.py",
+			"settings":
+			{
+				"buffer_size": 1137,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "firstp/settings.py",
+			"settings":
+			{
+				"buffer_size": 3343,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ipyth",
+				"Build With: Python"
+			],
+			[
+				"",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 137.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/STUDY/python/projects/firstp - Copy",
+		"/D/STUDY/python/projects/firstp - Copy/firstp",
+		"/D/STUDY/python/projects/firstp - Copy/firstp/__pycache__"
+	],
+	"file_history":
+	[
+		"/D/STUDY/5th sem/DBMS/lab15_2.sql",
+		"/D/STUDY/5th sem/DBMS/plsql_posneg.sql",
+		"/D/STUDY/5th sem/DBMS/plsql_empindept.sql",
+		"/D/STUDY/5th sem/DBMS/plsql_posneg2.sql",
+		"/C/Users/NAYAN/Desktop/alice.py",
+		"/C/Users/NAYAN/Desktop/loan/vehicleloan/m2.py",
+		"/C/Users/NAYAN/Desktop/demo1.py",
+		"/D/STUDY/5th sem/TOC LAB/Lab16_091_Nayan shrivastava.c",
+		"/D/STUDY/5th sem/TOC LAB/Lab17_091_Nayan shrivastava.c",
+		"/D/STUDY/python/clg programs/12dec.py",
+		"/D/STUDY/python/clg programs/L10_P19_0187cs181108.py",
+		"/D/STUDY/python/clg programs/L10_P19_0187cs181091.py",
+		"/D/STUDY/python/clg programs/L10_P20_0187cs181091.py",
+		"/D/STUDY/python/clg programs/L10_P20_0187cs181108.py",
+		"/D/STUDY/python/projects/firstp - Copy/templates/details.html",
+		"/D/STUDY/python/projects/firstp - Copy/templates/login.html",
+		"/D/STUDY/python/projects/firstp - Copy/datavtool/models.py",
+		"/D/STUDY/python/projects/firstp - Copy/manage.py",
+		"/D/STUDY/5th sem/TOC LAB/Lab10_091_Nayan shrivastava.c",
+		"/D/STUDY/python/projects/firstp - Copy/firstp/urls.py",
+		"/D/STUDY/python/projects/firstp - Copy/firstp/settings.py",
+		"/D/STUDY/python/projects/firstp - Copy/datavtool/views.py",
+		"/D/STUDY/5th sem/TOC LAB/Lab9_108_Purva Joshi.c",
+		"/D/STUDY/5th sem/TOC LAB/Lab9_091_Nayan shrivastava.c",
+		"/C/Users/NAYAN/Desktop/loan/homeloan/m1.py",
+		"/C/Users/NAYAN/Desktop/loan/homeloan/m2.py",
+		"/C/Users/NAYAN/Desktop/loan/vehicleload/m1.py",
+		"/C/Users/NAYAN/Desktop/loan/vehicleload/m2.py",
+		"/C/Users/NAYAN/Desktop/hello.sql",
+		"/C/Users/NAYAN/Desktop/maxminavg.sql",
+		"/D/STUDY/python/projects/firstp - Copy/templates/create.html",
+		"/C/Users/NAYAN/Desktop/maxminavg2.sql",
+		"/D/STUDY/5th sem/TOC LAB/Lab8_108_Purva Joshi.c",
+		"/D/STUDY/python/projects/firstp - Copy/static/assets/css/main.css",
+		"/D/STUDY/python/projects/firstp - Copy/templates/index.html",
+		"/D/STUDY/python/projects/firstp - Copy/datavtool/urls.py",
+		"/D/STUDY/python/projects/firstp/templates/details.html",
+		"/D/STUDY/5th sem/TOC LAB/Lab7_108_Purva Joshi.c",
+		"/D/STUDY/5th sem/TOC LAB/Lab5_108_Purva Joshi.c",
+		"/D/STUDY/5th sem/TOC LAB/Lab6_091_Nayan shrivastava.c",
+		"/D/STUDY/python/projects/firstp/datavtool/views.py",
+		"/D/STUDY/python/projects/firstp/templates/login.html",
+		"/D/STUDY/python/projects/firstp/datavtool/models.py",
+		"/D/STUDY/python/projects/firstp/datavtool/forms.py",
+		"/D/STUDY/python/projects/firstp/firstp/settings.py",
+		"/D/STUDY/python/projects/firstp/firstp/urls.py",
+		"/D/STUDY/python/clg programs/L8_P16_0187cs181108.py",
+		"/D/STUDY/python/clg programs/L8_P15_0187cs181108.py",
+		"/D/STUDY/python/clg programs/L8_P16_0187cs181091.py",
+		"/D/STUDY/python/clg programs/L8_P15_0187cs181091.py",
+		"/D/STUDY/5th sem/TOC LAB/Lab5_108_Nayan shrivastava.c",
+		"/D/STUDY/5th sem/TOC LAB/Lab5_091_Nayan shrivastava.c",
+		"/D/STUDY/5th sem/TOC LAB/Lab4_091_Nayan shrivastava.c",
+		"/D/STUDY/python/clg programs/L7_P13_0187cs181108.py",
+		"/D/STUDY/python/clg programs/L7_P14_0187cs181108.py",
+		"/D/STUDY/python/clg programs/L7_P14_0187cs181091.py",
+		"/D/STUDY/python/clg programs/L7_P13_0187cs181091.py",
+		"/C/Users/NAYAN/Desktop/L6_P12_0187cs181108.py",
+		"/D/STUDY/python/projects/firstp/static/assets/css/main.css",
+		"/D/STUDY/TOC LAB/Lab3_091_Nayan shrivastava.c",
+		"/D/STUDY/python/clg programs/L6_P11_0187cs181091.py",
+		"/C/Users/NAYAN/Desktop/L6_P12_0187cs181091.py",
+		"/D/STUDY/python/clg programs/L5_P10_0187cs181091.py",
+		"/D/STUDY/python/clg programs/L5_P9_0187cs181091.py",
+		"/D/STUDY/python/clg programs/L4_P8_0187cs181091.py",
+		"/D/STUDY/python/clg programs/L4_P7_0187cs181091.py",
+		"/D/STUDY/python/clg programs/L4_P6_0187cs181091.py",
+		"/D/STUDY/C++/Lower_to_upper.cpp",
+		"/C/Users/NAYAN/Desktop/putty/14_1_sort.cpp",
+		"/D/STUDY/webdev/templated-fullmotion/IWT Tutorial.html",
+		"/D/STUDY/webdev/templated-fullmotion/form.html",
+		"/C/Users/NAYAN/Desktop/mst.html",
+		"/D/STUDY/webdev/templated-fullmotion/L3_P5_0187cs181091.py",
+		"/D/STUDY/webdev/templated-fullmotion/L3_P4_0187cs181091.py",
+		"/C/Users/NAYAN/Downloads/GoogleNexusWebsiteMenu/GoogleNexusWebsiteMenu/index.html",
+		"/C/Users/NAYAN/Desktop/L2_P1_0187cs181091.py",
+		"/C/Users/NAYAN/Desktop/L2_P2_0187cs181091.py",
+		"/D/STUDY/webdev/templated-fullmotion/index.html",
+		"/D/STUDY/webdev/templated-fullmotion/login.html",
+		"/C/Users/NAYAN/Downloads/formValidation.html",
+		"/D/STUDY/webdev/templated-fullmotion/assets/css/main.css",
+		"/D/STUDY/webdev/templated-fullmotion/Index2.html",
+		"/D/STUDY/webdev/templated-fullmotion/asda.py",
+		"/C/Users/NAYAN/Downloads/IWT Tutorial.html",
+		"/C/Users/NAYAN/Desktop/L1_P1_0187cs181091.py",
+		"/C/Users/NAYAN/Downloads/templated-fullmotion/Index2.html",
+		"/C/Users/NAYAN/Downloads/templated-fullmotion/index.html",
+		"/C/Users/NAYAN/Downloads/templated-fullmotion/assets/css/main.css",
+		"/C/Users/NAYAN/Downloads/Django-Gym-Member-Manager-master/Gymnasium/settings.py",
+		"/C/Users/NAYAN/Downloads/Django-Gym-Member-Manager-master/manage.py",
+		"/C/Users/NAYAN/Downloads/Billing-System-In-Python-master/main.py",
+		"/C/Users/NAYAN/Downloads/Billing-System-In-Python-master/purchase.py",
+		"/C/Users/NAYAN/Downloads/Billing-System-In-Python-master/write.py",
+		"/C/Users/NAYAN/Downloads/bs4/dammit.py",
+		"/C/Users/NAYAN/Downloads/Billing-System-In-Python-master/read.py",
+		"/C/Users/NAYAN/Downloads/GoogleNexusWebsiteMenu/GoogleNexusWebsiteMenu/css/component.css",
+		"/C/Users/NAYAN/Downloads/GoogleNexusWebsiteMenu/GoogleNexusWebsiteMenu/css/.DS_Store",
+		"/C/Users/NAYAN/Downloads/templatemo_539_simple_house/index.html",
+		"/C/Users/NAYAN/Downloads/templatemo_539_simple_house/css/templatemo-style.css",
+		"/C/Users/NAYAN/Downloads/templatemo_539_simple_house/css/all.min.css",
+		"/C/Users/NAYAN/Downloads/CS504_1_2_0187CS181091_Nayan Shrivastava.html",
+		"/D/python/factorial.py",
+		"/C/Users/NAYAN/Desktop/etc/Sentiment Analysis Result(1).html",
+		"/C/Users/NAYAN/Desktop/etc/Holiday Lets, Homes, Experiences & Places - Airbnbasdas.html",
+		"/C/Users/NAYAN/Desktop/etc/asdasda.html",
+		"/D/python/table.html",
+		"/D/python/sentiment_classifier.py",
+		"/D/python/resulting_data.csv"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"select",
+			"inner",
+			"button",
+			"animation",
+			"#42424f",
+			"input",
+			"banner",
+			"h1",
+			"file_name",
+			"button style2 fit",
+			"button",
+			"radio",
+			"table",
+			"radio",
+			"parallax",
+			"data_parallax"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "datavtool/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12751,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3261,
+								3261
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1440.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/STUDY/5th sem/DBMS/plsql_empindept.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								202,
+								202
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SQL/SQL.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/create.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								722,
+								722
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "templates/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5599,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4300,
+								4300
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1680.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "static/assets/css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27715,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15888,
+								15888
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 18383.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "firstp/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1137,
+								1137
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 121.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "firstp/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								808,
+								808
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 353.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "manage.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 183.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

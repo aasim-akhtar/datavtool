@@ -1,0 +1,1 @@
+1. COMMAND TO ACTIVATE THE VIRTUAL ENVIRONMENT IN POWERSHELL: .//projectenv/scripts/activate.ps1

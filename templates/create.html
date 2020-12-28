@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Upload File</title>
+	<meta charset="utf-8" />
+	<meta name = "viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+</head>
+<body>
+	<center>
+		<div id = 'create'>
+			<h1>Upload your CSV File</h1>
+			{% block replace %}
+			<p>Make sure to upload the file with .csv extension</p>
+			<hr class="my-4">
+			<form action='fileupload_process' class = 'form_create' method="POST" enctype="multipart/form-data">
+				<!-- Very Important csrf Token -->
+				{% csrf_token %}
+				<table>
+					<tr>
+						<td>Upload File </td>
+						<td colspan = '2' align="center">
+							<input type="file" id="file_name" name="filename" accept=".csv" required />
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center">
+							
+							<input type="submit" class="btn btn-primary btn-lg" name="register">
+						<!--</a>-->
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</center>
+
+	<!-- ########-->
+	<!-- Footer -->
+        <footer id="footer">
+          <div class="inner">
+            <h2>Hey! Friendly Footer</h2>
+            <p>Welcome to our project page.<br> With Datavtool, transform your data into visual insights easily.<br>we're sorry for any inconvenience! It's still in development<br>¯\_(ツ)_/¯ </p>
+
+            <ul class="icons">
+              <li><a href="{% static '#' %}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+              <li><a href="{% static '#' %}" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+              <li><a href="{% static '#' %}" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+              <li><a href="{% static '#' %}" class="icon fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
+            <p class="copyright">&copy; DataVtool Designed by : <a href="https://www.linkedin.com/in/purva-joshi-1a49061b4">Purva</a>,  <a href="https://www.linkedin.com/in/nayan-shrivastava-b85a091ab">Nayan</a>,  <a href="https://www.linkedin.com/in/juhi-ojha-3831251ab">Juhi</a>  and  <a href="https://www.linkedin.com/in/aasim-akhtar-88a753159">Aasim</a></p>
+          </div>
+        </footer>
+	<!-- Scripts -->
+	<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+	<script src="{% static 'assets/js/jquery.scrolly.min.js' %"></script>
+	<script src="{% static 'assets/js/jquery.poptrox.min.js' %"></script>
+	<script src="{% static 'assets/js/skel.min.js' %"></script>
+	<script src="{% static 'assets/js/util.js' %"></script>
+	<script src="{% static 'assets/js/main.js' %"></script>
+	{% endblock %}
+</body>
+</html>
