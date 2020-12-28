@@ -1,0 +1,14 @@
+{% extends 'create.html' %}
+{% block replace %}
+<CENTER>
+<div class='banner'>
+  <h1 >Welcome to DataVTools<br>Hello {{ user_pr.fname }}</h1>
+  <h3>its an awesome profile picture</h3>
+  <hr >
+  <img src="{{ user_pr.display_picture.url }}"  width="300px"/>
+  <p>
+    {{ user_pr.display_picture.url }}<BR>
+   You have learned some awesome technologies like {{ user_pr.technologies }}</p>
+</div>
+</CENTER>
+{% endblock %}

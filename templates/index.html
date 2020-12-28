@@ -1,0 +1,154 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Home Page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+		
+	</head>
+	
+	<body>
+
+			<!-- Banner -->
+			<!--
+				To use a video as your background, set data-video to the name of your video without
+				its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
+				formats to work correctly.
+			-->
+				<section id="banner" data-parallax="scroll" data-video = "">
+					<div class="inner">
+						<header>
+							<h1>Data Viz</h1>
+							<h2><b>Create insights</h2></p>
+						</header><br><br><br>
+						<a href="{% url 'fileupload' %}" class="button style4 fit">Upload</a>
+						<p><b>{{ upload_file_caption }}</b><br> To upload a new file, click on 'Upload' button</p>
+					</div>
+				</section>
+
+			<!-- Main -->
+				<div id="main">
+					<div class="inner">
+
+					<!-- Boxes -->
+						<div class="thumbnails">
+
+							<div class="box">
+								<a href="{% url 'heat_map' %}" class="image fit"><img src="{% static 'images/pic01.jpg' %}" alt="" /></a>
+								<div class="inner">
+									<h3>Heat Map</h3>
+									<p>A heat map is a data visualization technique that shows magnitude of a phenomenon as color in two dimensions.</p>
+									<br>
+									<a href="{% url 'heat_map' %}" class="button style3 fit">Create</a>
+								</div>
+							</div>
+
+							<div class="box">
+								<a href="{% url 'bar_plot' %}" class="image fit"><img src="{% static 'images/pic02.jpg' %}" alt="" /></a>
+								<div class="inner">
+									<h3>Bar Plot</h3>
+									<p>A bar plot or bar chart is a plot or chart that presents categorical data with rectangular bars with heights or lengths proportional to the values that they represent.</p>
+									<a href="{% url 'bar_plot' %}" class="button style2 fit" >Create</a>
+								</div>
+							</div>
+
+							<div class="box">
+								<a href="{% url 'line_scatter_plot' %}" class="image fit"><img src="{% static 'images/pic03.jpg' %}" alt="" /></a>
+								<div class="inner">
+									<h3>Line Plot / Scatter Plot</h3>
+									<p>This is the most basic type of chart used in finance and typically only depicts a security's closing prices over time</p>
+									<br>
+									<a href = "{% url 'line_scatter_plot' %}" class="button style3 fit" >Create</a>
+									
+								</div>
+							</div>
+
+							<div class="box">
+								<a href="{% url 'box_plot' %}" class="image fit"><img src="{% static 'images/pic04.jpg' %}" alt="" /></a>
+								<div class="inner">
+									<h3>Box Plot</h3>
+									<p>A box plot (or box-and-whisker plot) shows the distribution of quantitative data in a way that facilitates comparisons between variables or across levels of a categorical variable.</p>
+									<a href="{% url 'box_plot' %}" class="button style3 fit" >Create</a>
+								</div>
+							</div>
+
+							<div class="box">
+								<a href="{% url 'dis_plot' %}" class="image fit"><img src="{% static 'images/pic05.jpg' %}" alt="" /></a>
+								<div class="inner">
+									<h3>Dis Plot</h3>
+									<p>A distplot plots a univariate distribution of observations. Distplot lets you show a histogram with a line on it. This can be shown in all kinds of variations.</p>
+									<a href="{% url 'dis_plot' %}" class="button style2 fit">Create</a>
+								</div>
+							</div>
+
+							<div class="box">
+								<a href="{% url 'joint_plot' %}" class="image fit"><img src="{% static 'images/pic06.jpg' %}" alt="" /></a>
+								<div class="inner">
+									<h3>Joint Plot</h3>
+									<p>Seaborn’s jointplot displays a relationship between 2 variables (bivariate) as well as 1D profiles (univariate) in the margins.</p>
+									<br>
+									<a href="{% url 'joint_plot' %}" class="button style3 fit">Create</a>
+								</div>
+							</div>
+							<div class="box">
+								<a href="{% url 'swarm_plot' %}" class="image fit"><img src="{% static 'images/pic07.jpg' %}" alt="" /></a>
+								<div class="inner">
+									<h3>Swarm Plot</h3>
+									<p>Swarm Plots, also called as beeswarm plots. Swarm plots attempt to avoid obscuring points by calculating non-overlapping positions instead of adding random jitter like in strip plot.</p>
+									<br>
+									<a href="{% url 'swarm_plot' %}" class="button style3 fit">Create</a>
+								</div>
+							</div>
+							<div class="box">
+								<a href="{% url 'rel_plot' %}" class="image fit"><img src="{% static 'images/pic08.jpg' %}" alt="" /></a>
+								<div class="inner">
+									<h3>Rel Plot</h3>
+									<p>A relplot uses the base scatterplot and lineplot to build a FacetGrid. The key feature of a FacetGrid is that it supports creating multiple plots with data varying by rows and columns.</p>
+									<br>
+									<a href="{% url 'rel_plot' %}" class="button style3 fit">Create</a>
+								</div>
+							</div>
+							<div class="box">
+								<a href="{% url 'pair_plot' %}" class="image fit"><img src="{% static 'images/pic09.jpg' %}" alt="" /></a>
+								<div class="inner">
+									<h3>Pair Plot</h3>
+									<p>Pair Plot is a really simple way to visualize relationships between each variable. It produces a matrix of relationships between each variable in your data for an instant examination of our data.</p>
+									<br>
+									<a href="{% url 'pair_plot' %}" class="button style3 fit">Create</a>
+								</div>
+							</div>
+
+
+
+						</div>
+
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<h2>Hey! Friendly Footer</h2>
+						<p>Welcome to our project page.<br> With Datavtool, transform your data into visual insights easily.<br>we're sorry for any inconvenience! It's still in development<br>¯\_(ツ)_/¯ </p>
+
+						<ul class="icons">
+							<li><a href="{% static '#' %}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="{% static '#' %}" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="{% static '#' %}" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="{% static '#' %}" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<p class="copyright">&copy; DataVtool Designed by : <a href="https://www.linkedin.com/in/purva-joshi-1a49061b4">Purva</a>,  <a href="https://www.linkedin.com/in/nayan-shrivastava-b85a091ab">Nayan</a>,  <a href="https://www.linkedin.com/in/juhi-ojha-3831251ab">Juhi</a>  and  <a href="https://www.linkedin.com/in/aasim-akhtar-88a753159">Aasim</a></p>
+					</div>
+				</footer>
+
+		<!-- Scripts -->
+			<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+			<script src="{% static 'assets/js/jquery.scrolly.min.js' %}"></script>
+			<script src="{% static 'assets/js/skel.min.js' %}"></script>
+			<script src="{% static 'assets/js/util.js' %}"></script>
+			<script src="{% static 'assets/js/main.js' %}"></script>
+
+	</body>
+</html>
